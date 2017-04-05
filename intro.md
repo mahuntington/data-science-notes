@@ -24,7 +24,18 @@ What does it consist of?
 
 - Programming skills
 - Math and Statistics knowledge
-- Business acumen (substantive expertise)
+- Business sense
+- Domain Knowledge
 - Communication Skills
 
 ![venn diagram](https://static1.squarespace.com/static/5150aec6e4b0e340ec52710a/t/51525c33e4b0b3e0d10f77ab/1364352052403/Data_Science_VD.png)
+
+## Your Turn: Qualities Of A Data Scientist And You
+
+Let's talk through the following questions in groups:
+
+1. What do you think are the most important qualities for a data scientist?
+2. Can you think of any other quality/skill we have not mentioned?
+3. What is your field of expertise?
+4. Do you use tools such as Excel, Stata, R, or Python?
+5. Where are you in the intersection of these skills?
