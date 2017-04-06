@@ -39,3 +39,21 @@ Let's talk through the following questions in groups:
 3. What is your field of expertise?
 4. Do you use tools such as Excel, Stata, R, or Python?
 5. Where are you in the intersection of these skills?
+
+## Possible Answers: Qualities Of A Data Scientist And You
+
+- Ask good questions:
+    - What is required?
+    - How are results evaluated? (measures of success)
+    - What do we currently know? (existing data)
+    - What has happened? (descriptive analytics)
+    - What will happen (if)? (predictive analytics)
+    - What to do to achieve what we require? (insight)
+- Define and test a hypothesis/run experiments.
+- Scrape, & sample business relevant data.
+- Manipulate, sanitize, and wrangle data.
+- Visualize data.
+- Understand data relationships.
+- Tell the machine how to learn from data.
+- Create data products that deliver actionable insight.
+- Tell relevant business stories from data.
