@@ -2,10 +2,12 @@
 
 ## Lesson Objectives
 
-1. Intros
-1. What is Data Science?
+1. Talk About Each Other
+1. Describe What Data Science Is
+1. Describe the Qualities Of A Data Scientist
+1. Describe the Data Science Workflow
 
-## Intros
+## Talk About Each Other
 
 1. Here's a bit about me
 1. This class can be about networking, too!  Tell us about yourself!
@@ -13,7 +15,7 @@
     - What Brings You To GA?
     - What Are Your Current Activities?
 
-## What is Data Science?
+## Describe What Data Science Is
 
 What is it, exactly?
 
@@ -30,7 +32,9 @@ What does it consist of?
 
 ![venn diagram](https://static1.squarespace.com/static/5150aec6e4b0e340ec52710a/t/51525c33e4b0b3e0d10f77ab/1364352052403/Data_Science_VD.png)
 
-## Your Turn: Qualities Of A Data Scientist And You
+## Describe the Qualities Of A Data Scientist
+
+### Exercise
 
 Let's talk through the following questions in groups:
 
@@ -40,7 +44,7 @@ Let's talk through the following questions in groups:
 4. Do you use tools such as Excel, Stata, R, or Python?
 5. Where are you in the intersection of these skills?
 
-## Possible Answers: Qualities Of A Data Scientist And You
+### Possible Answers
 
 - Ask good questions:
     - What is required?
@@ -58,14 +62,19 @@ Let's talk through the following questions in groups:
 - Create data products that deliver actionable insight.
 - Tell relevant business stories from data.
 
-## Self Assessment on Data Science Skills
+## Describe the Data Science Workflow
 
-For a given class size
-    - how many people will rate themselves strongest in Programming Skills?
-    - how many people will rate themselves strongest in Math and Statistics Knowledge?
-    - how many people will rate themselves strongest in Business Sense?
-    - how many people will rate themselves strongest in Domain Knowledge?
-    - how many people will rate themselves strongest in Communication Skills?
+### Self Assessment on Data Science Skills
+
+For a given class size:
+
+- how many people will rate themselves strongest in Programming Skills?
+- how many people will rate themselves strongest in Math and Statistics Knowledge?
+- how many people will rate themselves strongest in Business Sense?
+- how many people will rate themselves strongest in Domain Knowledge?
+- how many people will rate themselves strongest in Communication Skills?
+
+What to do:
 
 1. Create a table for the qualities of a data scientist and then rate yourself on each of these skills on a scale from 1-10.
 1. We will then use the data to show how simple statistics in action are part of the data science workflow.
@@ -78,7 +87,7 @@ For a given class size
 | Domain Knowledge |  |
 | Communication Skills |  |
 
-## The Data Science Workflow
+### The Data Science Workflow
 
 1. Identify the problem
     - what are we trying to do?
@@ -107,7 +116,7 @@ For a given class size
 ![data science workflow](https://raw.githubusercontent.com/generalassembly-studio/data-science-101-cwe-materials/master/curriculum/02-materials/code/data-science-workflow-example.jpg)
 
 
-## Your Turn: Visualizing The Data Science Workflow
+### Your Turn: The Data Science Workflow
 
 You are a junior data scientist at Amazon. Your boss asks you about the leading indicators that a user will make a new online purchase. How would you go about solving this question?
 
