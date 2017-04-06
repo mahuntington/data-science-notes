@@ -60,13 +60,41 @@ Let's talk through the following questions in groups:
 
 ## Self Assessment on Data Science Skills
 
+For a given class size
+    - how many people will rate themselves strongest in Programming Skills?
+    - how many people will rate themselves strongest in Math and Statistics Knowledge?
+    - how many people will rate themselves strongest in Business Sense?
+    - how many people will rate themselves strongest in Domain Knowledge?
+    - how many people will rate themselves strongest in Communication Skills?
+
 1. Create a table for the qualities of a data scientist and then rate yourself on each of these skills on a scale from 1-10.
 1. We will then use the data to show how simple statistics in action are part of the data science workflow.
 
 | Skill | Value |
 | --- | --- |
-| Programming skills |  |
-| Math and statistics knowledge  |  |
-| Business sense |  |
+| Programming Skills |  |
+| Math and Statistics Knowledge  |  |
+| Business Sense |  |
 | Domain Knowledge |  |
 | Communication Skills |  |
+
+## The Data Science Workflow
+
+1. Identify the problem
+    - what are we trying to do?
+1. Acquire the data
+    - get data in its raw form
+        - scraping the data from a website
+        - downloading a file
+        - reading a book/article
+1. Parse the data
+    - format the data so that it's all the same
+1. Mine the data
+    - collect information from the data
+1. Refine the data
+    - clean the data up
+        - discard outliers, etc
+1. Build a data model
+    - figure out a formula that represents what we are trying to learn
+1. Present the results
+    - visualize the results
