@@ -105,3 +105,16 @@ For a given class size
     - publish findings
 
 ![data science workflow](https://raw.githubusercontent.com/generalassembly-studio/data-science-101-cwe-materials/master/curriculum/02-materials/code/data-science-workflow-example.jpg)
+
+
+## Your Turn: Visualizing The Data Science Workflow
+
+You are a junior data scientist at Amazon. Your boss asks you about the leading indicators that a user will make a new online purchase. How would you go about solving this question?
+
+1. Identify the problem: What do you think are the indicators?
+1. Acquire Data: What could we do first here? What are some considerations we should make?
+1. Parse Data: How do you format the data so it is all the same?
+1. Mine and Refine: What calculations/transformation do you recommend doing? How do you determine the presence of outliers?
+1. Data Model: What attributes would you include in the modeling stage? How do you know if the model is performing well?
+1. Present Results: Who is your audience? What is the best way to present your results?
+1. Deploy and Validate: How would this be shared with the community?  How will it be validated?
