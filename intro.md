@@ -1,4 +1,4 @@
-# Introduction to Data Science
+# What Is Data Science?
 
 ## Lesson Objectives
 
