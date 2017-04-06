@@ -1,4 +1,6 @@
-# Pseudo Code
+# Algorithms
+
+## Pseudo Code
 
 Pseudo code is the process of taking a larger solution and breaking it down into the programmable steps without actually writing any code.
 
