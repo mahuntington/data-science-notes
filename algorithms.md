@@ -1,12 +1,29 @@
 # Algorithms
 
-## Pseudo Code
+## Lesson Objectives
 
-Pseudo code is the process of taking a larger solution and breaking it down into the programmable steps without actually writing any code.
+1. Define what an algorithm is
+1. Describe the process for creating an algorithm
+
+## Define what an algorithm is
+
+An algorithm is just a series of steps to be taken.  It's what computers use to solve a problem
+
+## Describe the process for creating an algorithm
+
+To create an algorithm for a computer program, there are a few steps to follow:
 
 1. Think about the larger solution as a whole, but as a series of steps that you would write out for a petulant child to follow
 1. Write out the solution in plain English, breaking it down into as many tiny steps as possible.  Remember, this child doesn't want to do the task.  If there's any ambiguity, you're sunk
-1. Create a flow chart
+1. Create a flow chart (decision tree)
+    ![musical flow chart](http://i.imgur.com/J1iNj.jpg)
+1. Write Pseudo code for the algorithm (explained below)
+1. Write computer code to solve the issue
+
+### What is Pseudo Code?
+
+Pseudo code is the process of taking a larger solution and breaking it down into the programmable steps without actually writing any code.
+
 1. Try to separate each phrase/independent clause onto a different line
 1. Identify the following:
     - Assertions
@@ -30,6 +47,8 @@ Pseudo code is the process of taking a larger solution and breaking it down into
         - true/false values (booleans)
         - collections of stuff (arrays)
 1. (Optional) Try to convert each line into something that resembles code
+
+Example:
 
 ```
 Peeling an orange: First, do we have an orange?  If not, I'm going to take one out of the fridge.  We now have the orange.  Then I'm going to see if it has already been peeled.  If it is peeled, I'm going to eat it.  If it isn't peeled, I'm going to remove a chunk of the rind.  At this point, I'm going to see if it's peeled.  If it isn't I'm going to remove another chunk of the rind.  I'll keep doing this until the orange is peeled.
