@@ -57,3 +57,15 @@ Let's talk through the following questions in groups:
 - Tell the machine how to learn from data.
 - Create data products that deliver actionable insight.
 - Tell relevant business stories from data.
+
+## Self Assessment on Data Science Skills
+
+1. Create a table for the qualities of a data scientist and then rate yourself on each of these skills on a scale from 1-10.
+1. We will then use the data to show how simple statistics in action are part of the data science workflow.
+
+|Skill|Value|
+|Programming skills||
+|Math and statistics knowledge||
+|Business sense||
+|Domain Knowledge||
+|Communication Skills||
