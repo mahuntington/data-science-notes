@@ -98,3 +98,8 @@ For a given class size
     - figure out a formula that represents what we are trying to learn
 1. Present the results
     - visualize the results
+1. Deploy and validate
+    - create a site
+    - publish findings
+
+![data science workflow](https://raw.githubusercontent.com/generalassembly-studio/data-science-101-cwe-materials/master/curriculum/02-materials/code/data-science-workflow-example.jpg)
