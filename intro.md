@@ -82,6 +82,8 @@ For a given class size
 
 1. Identify the problem
     - what are we trying to do?
+    - ask questions
+    - form hypothesis
 1. Acquire the data
     - get data in its raw form
         - scraping the data from a website
