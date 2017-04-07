@@ -12,6 +12,7 @@
 1. Access an element of a list
 1. Perform a set of commands depending on a situation
 1. Repeatedly perform a set of commands
+1. Get user input
 
 ## Print a message
 
@@ -93,15 +94,10 @@ a = [
 ]
 ```
 
-You can conceptualize an list of lists however you want
+You can conceptualize a list of lists however you want
 
-```python
-a = [
-    [1, 4, 7, 10], #first column
-    [2, 5, 8], #second column
-    [3, 6, 9], #third column
-]
-```
+**ACTIVITY: How would you change the previous example so that each inner list is a column?**
+
 ## Access an element of a list
 
 Lists have elements stored at numerical indexes, starting at 0
@@ -148,4 +144,13 @@ a = 10
 while a < 20:
     print "the value of a is currently: " + str(a)
     a = a + 1
+```
+
+## Get user input
+
+You can get user input from the command like so:
+
+```python
+user_input = raw_input("Please enter something: ")
+print "you entered: " + user_input
 ```
