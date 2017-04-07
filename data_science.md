@@ -2,18 +2,9 @@
 
 ## Lesson Objectives
 
-1. Talk About Each Other
 1. Describe What Data Science Is
 1. Describe the Qualities Of A Data Scientist
 1. Describe the Data Science Workflow
-
-## Talk About Each Other
-
-1. Here's a bit about me
-1. This class can be about networking, too!  Tell us about yourself!
-    - What is Your Name?
-    - What Brings You To GA?
-    - What Are Your Current Activities?
 
 ## Describe What Data Science Is
 
