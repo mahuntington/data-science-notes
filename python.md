@@ -113,14 +113,6 @@ print a[1] #5
 print a[4] #5.6
 ```
 
-To find out the length of a list, run:
-
-```python
-a = [1, 5, "some string", True, 5.6]
-the_length = len(a)
-print the_length
-```
-
 ## Perform a set of commands depending on a situation
 
 ```python
