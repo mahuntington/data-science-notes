@@ -3,13 +3,64 @@
 ## Lesson Objectives
 
 1. Define what an algorithm is
+1. Describe situations in which we use algorithms in data science
 1. Describe the process for creating an algorithm
+1. Create some algorithms of your own
 
 ## Define what an algorithm is
 
 An algorithm is just a series of steps to be taken.  It's what computers use to solve a problem
 
+## Describe situations in which we use algorithms in data science
+
+1. Grab information from the internet and present results
+    - What's happening in social media?
+1. Given a set of data files, produce charts
+    - Provide analysis of a company's performance
+1. Help a website provide meaningful data to users
+    - What posts are "trending"?
+1. Machine Learning
+    - purpose
+        - representation
+            - extract data from data
+        - generalization
+            - make predictions from data
+    - forms
+        - supervised
+            - Usually requires data verified by humans
+            - Using existing data
+                - extract meaning from it
+                - make predictions with it
+            - Example 1
+                - Feed a computer scans of brains with cancer
+                - Have The computer make predictions about whether or not new images of brains show cancer
+            - Example 2
+                - Given actions of a driver, teach a computer how to drive
+            - Example 3
+                - Suppose you want to predict whether someone will make make a purchase the week after they visit your site.
+                - You have a set of data on previous customers, including age, interests, previous purchases, time of visit, etc.  
+                - You know whether previous customers made a purchase within a week of their last visit.  
+                - So, the problem is combining all the existing data into a model that can predict whether a new person will make purchase within a week.
+                - You can then take action and send a reminder or offer a discount.
+                - Amazon, Netflix, and others do this based on the history of their existing customers.
+        - unsupervised
+            - the computer will look at data and create relationships itself so it can
+                - extract meaning from it
+                - make predictions with it
+            - Example
+                - Suppose you want to understand your customer base so that you can produce appropriate segments that you can target with your next marketing campaign.
+                - You have a set of data about your customers, including age, location, previous purchases, time of visit, etc.
+                - But what characteristics should you use?
+                - Based on these attributes the program will find similarities and differences that provide groupings (segments) of customers.
+                    - it will figure out people like
+                        - the hedge fund manager's playboy son
+                        - the single mother
+                        - the angsty tween
+                - You can then take action and make an offer or recommend a product specifically to these segments.
+
 ## Describe the process for creating an algorithm
+
+### The process
 
 To create an algorithm for a computer program, there are a few steps to follow:
 
@@ -66,3 +117,11 @@ Is it peeled? - conditional coming up
         The orange is now peeled - comment
         You're done!  Eat it! - function
 ```
+
+## Create some algorithms of your own
+
+Do the following in groups:
+
+1. Write pseudo to to make a peanut butter and jelly sandwich
+1. Given a bunch of votes on a post, create a "Recently Popular" algorithm
+    - like Reddit
