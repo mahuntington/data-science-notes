@@ -176,3 +176,4 @@ while a < 20:
     - Write a program that loops through each value in the list and prints the minimum
     - Write a program that loops through each value in the list and prints the maximum
 1. Combine all the programs from the previous step into one program that asks the user what operation they would like to do
+1. Alter the last program so that it performs the operations for only numbers that are greater than a number specified by the user
