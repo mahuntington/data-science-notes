@@ -96,7 +96,9 @@ a = [
 
 You can conceptualize a list of lists however you want
 
-**ACTIVITY: How would you change the previous example so that each inner list is a column?**
+### ACTIVITY
+
+How would you change the previous example so that each inner list is a column?
 
 ## Access an element of a list
 
@@ -134,16 +136,7 @@ You can also compare strings:
 ```python
 a = 'oh hai!'
 if a == 'oh hai!':
-    print 'works'
-```
-
-## Repeatedly perform a set of commands
-
-```python
-a = 10
-while a < 20:
-    print "the value of a is currently: " + str(a)
-    a = a + 1
+    print 'this works'
 ```
 
 ## Get user input
@@ -154,3 +147,32 @@ You can get user input from the command like so:
 user_input = raw_input("Please enter something: ")
 print "you entered: " + user_input
 ```
+
+### ACTIVITY
+
+Write a program that models this flow chart:
+
+![where should I post that?](http://socialnewsdaily.com/wp-content/uploads/2013/04/where-do-i-post-it.jpg)
+
+## Repeatedly perform a set of commands
+
+```python
+a = 10
+while a < 20:
+    print "the value of a is currently: " + str(a)
+    a = a + 1
+```
+
+### ACTIVITIES
+
+1. Write a program that models this flow chart:
+
+    ![where should I post that?](http://socialnewsdaily.com/wp-content/uploads/2013/04/where-do-i-post-it.jpg)
+
+1. Given the following list [70, 95, 97, 55, 3, 24, 89, 97, 84, 11]
+    - Write a program that loops through each value in the list and prints it
+    - Write a program that loops through each value in the list and adds them all together
+    - Write a program that loops through each value in the list and prints the average
+    - Write a program that loops through each value in the list and prints the minimum
+    - Write a program that loops through each value in the list and prints the maximum
+1. Combine all the programs from the previous step into one program that asks the user what operation they would like to do
