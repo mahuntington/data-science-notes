@@ -125,11 +125,11 @@ else:
 
 The conditions can be
 
-- < less than
-- > greater than
-- <= less than or equal to
-- >= greater than or equal to
-- == an exact match
+- `<` less than
+- `>` greater than
+- `<=` less than or equal to
+- `>=` greater than or equal to
+- `==` an exact match
 
 You can also compare strings:
 
@@ -167,7 +167,7 @@ while a < 20:
 
 1. Write a program that models this flow chart:
 
-    ![where should I post that?](http://socialnewsdaily.com/wp-content/uploads/2013/04/where-do-i-post-it.jpg)
+    ![where should I post that?](http://mentalfloss.com/sites/default/legacy/blogs/wp-content/uploads/2011/06/550pictionary.jpg)
 
 1. Given the following list [70, 95, 97, 55, 3, 24, 89, 97, 84, 11]
     - Write a program that loops through each value in the list and prints it
