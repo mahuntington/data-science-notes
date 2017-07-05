@@ -16,6 +16,7 @@
 1. Use a for loop
 1. Create a class for an object
 1. Have a class inherit from another
+1. Create a factory for objects
 
 ## Print a message
 
@@ -251,4 +252,37 @@ superman = SuperHero('Clark Kent', 200, ['flight', 'strength', 'invulnerability'
 
 superman.greet()
 superman.work()
+```
+
+## Create a factory for objects
+
+```python
+class Car:
+  def __init__(self, maker, model, serial):
+    self.maker = maker
+    self.model = model
+    self.serial = serial
+
+class CarFactory:
+  def __init__(self, name):
+    self.name = name
+    self.cars = []
+
+  def makeCar(self, model):
+    self.cars.append(Car(self.name, model, len(self.cars)))
+
+  def listCars(self):
+    for car in self.cars:
+      print(car.maker + " " + car.model + ": " + str(car.serial))
+
+  def findCar(self, serial):
+    for car in self.cars:
+      if(car.serial == serial):
+        return car
+
+toyota = CarFactory('Toyota')
+toyota.makeCar('Prius')
+toyota.makeCar('Rav 4')
+toyota.listCars()
+print(toyota.findCar(1).model)
 ```
