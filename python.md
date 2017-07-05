@@ -286,3 +286,8 @@ toyota.makeCar('Rav 4')
 toyota.listCars()
 print(toyota.findCar(1).model)
 ```
+
+### Activities
+
+- [Landscaper](landscaper.md)
+- [Castle Battle](castle.md)
