@@ -15,6 +15,7 @@
 1. Repeatedly perform a set of commands
 1. Use a for loop
 1. Create a class for an object
+1. Have a class inherit from another
 
 ## Print a message
 
@@ -215,3 +216,39 @@ sally.greet()
 
 - `__init__` is a function that gets called when a new object is created.
 - `self` is the object that's created
+
+## Have a class inherit from another
+
+```python
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        print("Hello, my name is " + self.name + ". My age is " + str(self.age))
+
+    def work(self):
+        print("Boring...")
+
+class SuperHero(Person):
+    def __init__(self, name, age, powers):
+        super().__init__(name,age)
+        self.powers = powers
+
+    def greet(self):
+        super().greet()
+        self.listPowers()
+
+    def listPowers(self):
+        for power in self.powers:
+            print(power)
+
+    def work(self):
+        print("To action!")
+
+superman = SuperHero('Clark Kent', 200, ['flight', 'strength', 'invulnerability'])
+
+superman.greet()
+superman.work()
+```
