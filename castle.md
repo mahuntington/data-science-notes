@@ -51,3 +51,10 @@
     - If you have 0 or fewer hit points, the computer wins
     - If you both have 0 or fewer hit points, it's a tie
     - If you both have more than 0 hit points, start player's turn over again (step 1)
+
+## Hungry for more?
+
+1. Make it so that the computer doesn't randomly attack/repair/do nothing itself.  Instead, it will act like a player and either create a peon or, if a peon already exists, select a random peon and tell it to either attack or repair
+1. Make the 2nd player optionally be either the computer (random decisions) or another human
+1. Repairs increase hit points a random number between 0-3
+1. Attacks decrease hit points a random number between 0-3
