@@ -11,8 +11,9 @@
 1. Create a list
 1. Access an element of a list
 1. Perform a set of commands depending on a situation
-1. Repeatedly perform a set of commands
 1. Get user input
+1. Repeatedly perform a set of commands
+1. Use a for loop
 
 ## Print a message
 
@@ -177,3 +178,17 @@ while a < 20:
     - Write a program that loops through each value in the list and prints the maximum
 1. Combine all the programs from the previous step into one program that asks the user what operation they would like to do
 1. Alter the last program so that it performs the operations for only numbers that are greater than a number specified by the user
+
+## Use a for loop
+
+The process of looping through an array can be simplified with a for loop:
+
+```python
+foods = ['hot dogs', 'beer', 'bald eagles']
+for food in foods:
+      print(food)
+```
+
+### ACTIVITIES
+
+Simplify the last activities using a for loop
