@@ -14,6 +14,7 @@
 1. Get user input
 1. Repeatedly perform a set of commands
 1. Use a for loop
+1. Create a class for an object
 
 ## Print a message
 
@@ -168,7 +169,7 @@ while a < 20:
 
 1. Write a program that models this flow chart:
 
-    ![where should I post that?](http://pics.blameitonthevoices.com/032011/how_to_play_pictionary.jpg)
+    ![pictionary](http://pics.blameitonthevoices.com/032011/how_to_play_pictionary.jpg)
 
 1. Given the following list [70, 95, 97, 55, 3, 24, 89, 97, 84, 11]
     - Write a program that loops through each value in the list and prints it
@@ -181,7 +182,7 @@ while a < 20:
 
 ## Use a for loop
 
-The process of looping through an array can be simplified with a for loop:
+The process of looping through an array can be simplified with a `for` loop:
 
 ```python
 foods = ['hot dogs', 'beer', 'bald eagles']
@@ -191,4 +192,26 @@ for food in foods:
 
 ### ACTIVITIES
 
-Simplify the last activities using a for loop
+Simplify the last set of activities using a `for` loop
+
+## Create a class for an object
+
+You can use a `class` or blueprint for objects that you'll use
+
+```python
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def greet(self):
+    print("Hello, my name is " + self.name + ". My age is " + str(self.age))
+
+me = Person("Matt", 36)
+me.greet()
+sally = Person("Sally", 53)
+sally.greet()
+```
+
+- `__init__` is a function that gets called when a new object is created.
+- `self` is the object that's created
