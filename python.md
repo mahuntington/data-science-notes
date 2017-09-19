@@ -23,7 +23,7 @@
 You can print a message to the user
 
 ```python
-print "hello!"
+print("hello!")
 ```
 
 ## Add a comment
@@ -39,7 +39,7 @@ print "hello!"
 
 ```python
 a = "hello"
-print a ##print the value of the variable 'a'
+print(a) ##print the value of the variable 'a'
 ```
 
 ## Explain the different data types
@@ -110,9 +110,9 @@ Lists have elements stored at numerical indexes, starting at 0
 
 ```python
 a = [1, 5, "some string", True, 5.6]
-print a[0] #1
-print a[1] #5
-print a[4] #5.6
+print(a[0]) #1
+print(a[1]) #5
+print(a[4]) #5.6
 ```
 
 ## Perform a set of commands depending on a situation
@@ -120,11 +120,11 @@ print a[4] #5.6
 ```python
 a = 22
 if a < 10:
-    print "a is less than 10"
+    print("a is less than 10")
 elif a == 10:
-    print "a is 10"
+    print("a is 10")
 else:
-    print "a is greater than 10"
+    print("a is greater than 10")
 ```
 
 The conditions can be
@@ -140,7 +140,7 @@ You can also compare strings:
 ```python
 a = 'oh hai!'
 if a == 'oh hai!':
-    print 'this works'
+    print('this works')
 ```
 
 ## Get user input
@@ -149,7 +149,7 @@ You can get user input from the command like so:
 
 ```python
 user_input = raw_input("Please enter something: ")
-print "you entered: " + user_input
+print("you entered: " + user_input)
 ```
 
 ### ACTIVITY
@@ -163,7 +163,7 @@ Write a program that models this flow chart:
 ```python
 a = 10
 while a < 20:
-    print "the value of a is currently: " + str(a)
+    print("the value of a is currently: " + str(a))
     a = a + 1
 ```
 
