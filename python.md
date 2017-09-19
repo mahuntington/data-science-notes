@@ -148,7 +148,7 @@ if a == 'oh hai!':
 You can get user input from the command like so:
 
 ```python
-user_input = raw_input("Please enter something: ")
+user_input = input("Please enter something: ")
 print("you entered: " + user_input)
 ```
 
