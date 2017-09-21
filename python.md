@@ -134,6 +134,7 @@ The conditions can be
 - `<=` less than or equal to
 - `>=` greater than or equal to
 - `==` an exact match
+- `!=` not equal to
 
 You can also compare strings:
 
@@ -141,6 +142,26 @@ You can also compare strings:
 a = 'oh hai!'
 if a == 'oh hai!':
     print('this works')
+```
+
+You can combine conditional statements:
+
+check to see if both conditions are met:
+
+```python
+a = 1
+b = 2
+if a == 1 and b == 2:
+  print('y') # will print only when both a==1 AND b==2
+```
+
+check to see if either condition are met
+
+```python
+a = 2
+b = 2
+if a == 1 or b == 2:
+  print('y') # will print when either a==1 OR b==2
 ```
 
 ## Get user input
