@@ -14,6 +14,7 @@
 1. Get user input
 1. Repeatedly perform a set of commands
 1. Use a for loop
+1. Define a function
 1. Create a class for an object
 1. Have a class inherit from another
 1. Create a factory for objects
@@ -223,6 +224,35 @@ for x in range(0, 3):
 ### ACTIVITIES
 
 Simplify the last set of activities using a `for` loop
+
+## Define a function
+
+If you have a routine that you run over and over again, you can define your own function:
+
+```python
+def greet():
+  print('hi')
+
+greet()
+```
+
+Functions can take parameters which alter their functionality:
+
+```python
+def greet(name):
+  print('hi, ' + name)
+
+greet('bob')
+```
+
+Functions can return values:
+
+```python
+def add(value1, value2):
+  return value1 + value2
+  
+print(add(1,3))
+```
 
 ## Create a class for an object
 
