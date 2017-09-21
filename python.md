@@ -210,7 +210,14 @@ The process of looping through an array can be simplified with a `for` loop:
 ```python
 foods = ['hot dogs', 'beer', 'bald eagles']
 for food in foods:
-      print(food)
+    print(food)
+```
+
+You can loop through a set of numbers using a `range`
+
+```python
+for x in range(0, 3):
+  print(x)
 ```
 
 ### ACTIVITIES
