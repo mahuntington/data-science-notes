@@ -254,6 +254,10 @@ def add(value1, value2):
 print(add(1,3))
 ```
 
+### ACTIVITIES
+
+Create a calculator program that continually asks a user what operations they want to perform, until the user says 'quit'
+
 ## Create a class for an object
 
 You can use a `class` or blueprint for objects that you'll use
