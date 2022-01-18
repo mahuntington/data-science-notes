@@ -43,9 +43,9 @@
     - Choose a random number from 0-2
     - 0: computer does nothing
     - 1: computer repairs itself
-        - increase computer hit points by one
+        - increase computer hit points by two
     - 2: computer attacks player
-        - decrease player hit points by one
+        - decrease player hit points by two
 1. Evaluate the state of the game:
     - If the computer has 0 or fewer hit points, you win
     - If you have 0 or fewer hit points, the computer wins
